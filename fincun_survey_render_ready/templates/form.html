@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FINCUN - Client Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f9ff;
+            color: #333;
+            text-align: center;
+            padding: 40px;
+        }
+        form {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        h1 {
+            color: #002f6c;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to FINCUN</h1>
+    <p>Managed by Bikesh Ojha | 📞 +91 9835349232</p>
+    <form method="post">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="number" name="age" placeholder="Age" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <select name="need" required>
+            <option value="">What financial help do you need?</option>
+            <option>Mutual Fund Investment</option>
+            <option>Insurance (Life/Health)</option>
+            <option>Income Tax Filing</option>
+            <option>Retirement Planning</option>
+            <option>Claims & Settlement</option>
+            <option>Portfolio Review</option>
+            <option>Others</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
